@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background: "mars.jpg"; 
+  font-family: AlienLeague;
 }
 
 .App-logo {
@@ -36,3 +38,18 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  position: static;
+  width: 1000px;
+  height: 800px;
+  background-color: black; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@font-face {
+  font-family: 'AlienLeauge'; 
+  src: local('AlienLeauge'), ur(./fonts/alienleague.ttf) format('truetype');
+}
+

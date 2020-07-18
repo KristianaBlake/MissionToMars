@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './fonts/alienleague.ttf';
 
 function App() {
   return (
     <div className="App">
-    	<div id="container">
+    	<div className="container">
             <header> <strong> Mission to Mars </strong> </header>
             
             <nav> 
