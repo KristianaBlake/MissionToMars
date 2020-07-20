@@ -6,17 +6,17 @@ function App() {
   return (
     <div className="App">
     	<div className="container">
-            <header> <strong> Mission to Mars </strong> </header>
+            <header className="header"> <strong> Mission to Mars </strong> </header>
             
-            <nav> 
+            <nav className="nav"> 
                 
-                <a href="TheRedPlanet.html"> The Red Planet </a>
+                <a className="nav-links" href="TheRedPlanet.html"> The Red Planet </a>
             
-                <a href="LifeOnMars.html"> Life on Mars </a>
+                <a className="nav-links" href="LifeOnMars.html"> Life on Mars </a>
             
-                <a href="apply.html"> Apply </a> 
+                <a className="nav-links" href="apply.html"> Apply </a> 
                 
-                <a href="sources.html"> Sources </a>
+                <a className="nav-links" href="sources.html"> Sources </a>
             
             </nav>
             
