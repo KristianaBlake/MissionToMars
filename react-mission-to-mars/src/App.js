@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import './fonts/alienleague.ttf';
+import './fonts/nulshock.ttf';
+// import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 function App() {
   return (
