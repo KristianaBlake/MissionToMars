@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import './fonts/alienleague.ttf';
 import './fonts/nulshock.ttf';
+import WeNeedYou from './img/WeNeedYou.jpg';
 // import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 function App() {
@@ -22,9 +23,9 @@ function App() {
             
             </nav>
             
-            <div id="photo">
+            <div className="photo">
             
-                <img src="WeNeedYou.jpg" alt="WeNeedYou" /> 
+                <img src={WeNeedYou} alt="WeNeedYou" /> 
             
             </div>
             
