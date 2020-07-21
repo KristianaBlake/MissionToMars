@@ -110,6 +110,38 @@
   padding: 5px;
 }
 
+nav a {
+  font-size: 25px;
+  position: static; 
+
+  text-align: left; 
+  text-decoration: none; 
+  font-family: NulShock; 
+  color: darkred; 
+  padding: 5px;
+}
+            
+nav a:link {
+  color: darkred; 
+}
+
+nav a:visited {
+  color: darkred;
+}
+
+nav a:hover {
+  color: darkorange;
+  background-color: black; ;
+  border-radius: 5px;
+  font-size: 30px; 
+}
+
+nav a:active {
+  color: black;
+  background-color: darkgoldenrod; ; 
+  font-style: normal; 
+}
+
 article {
   position: static;
   width: 450px;
