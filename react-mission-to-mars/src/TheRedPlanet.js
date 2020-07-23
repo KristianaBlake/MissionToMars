@@ -17,7 +17,7 @@ function TheRedPlanet() {
       
         <div className="facts">     
             <h1> Fun Facts  </h1>
-            <ul style="list-style-type:square">
+            <ul style={{ listStyleType: 'square' }}>
                 <l1> Mars, the 'Red Planet', got its name because of its red soil. This is because Mars has high amounts of iron oxide (rust). </l1>
                 
                 <li> Mars was named by the Romans for their God of war because of its red, bloodlike color. </li>
