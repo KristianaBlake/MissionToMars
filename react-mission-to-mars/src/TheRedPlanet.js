@@ -1,7 +1,6 @@
 import React from 'react';
-import './TheRedPlanet.css';
 import './fonts/alienleague.ttf';
-import './fonts/nulshock.ttf';
+import './fonts/aspace.ttf';
 
 
 function TheRedPlanet() {

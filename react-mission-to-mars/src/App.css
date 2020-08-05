@@ -1,14 +1,16 @@
 @font-face {
   font-family: 'AlienLeauge'; 
-  src: local('AlienLeauge'), url(./fonts/alienleague.ttf) format('truetype');
+  src: local('AlienLeauge'), 
+  url(./fonts/alienleague.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'NulShock';
-  src: local('NulShock'), url(./fonts/nulshock.ttf) format('truetype'); 
+  src: local('NulShock'), 
+  url(./fonts/nulshock.ttf) format('truetype'); 
 }
 
-.App {
+.Home {
   height: 100%;
 }
 
