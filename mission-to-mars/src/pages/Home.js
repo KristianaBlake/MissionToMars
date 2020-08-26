@@ -23,15 +23,15 @@ class Home extends React.Component{
 				            
 				            <div id="photo">
 				            
-				                <img id="index-image" src="images/WeNeedYou.jpg" alt="WeNeedYou"> 
+				                <img id="index-image" src="images/WeNeedYou.jpg" alt="WeNeedYou"/> 
 				            
 				            </div>
 				            
 				            <article id="index-article">
 				                
-				                <br>
-				                <br> 
-				                <br>  
+				                <br/>
+				                <br/> 
+				                <br/>  
 				                
 				                <h1 id="index-title"> Greetings Earthlings </h1>
 
@@ -43,7 +43,6 @@ class Home extends React.Component{
 				            
 				            </article>
 				    	</div>
-
 					</div>
 				</body>
 			</div>
