@@ -1,0 +1,712 @@
+#index-body {
+	height: 100%;
+	margin: 0;
+}
+
+@font-face {font-family: AlienLeauge; 
+    src: url(../fonts/alienleague.ttf); 
+}
+
+@font-face {font-family: NulShock;
+    src: url(../fonts/nulshock.ttf); 
+}
+
+@font-face {font-family: ASpace; 
+    src: url(../fonts/aspace.ttf); 
+}
+
+#index-background {
+	background-image:url(../images/mars.jpg);
+
+	height: 100%;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-blend-mode: color;
+    overflow: auto;
+}
+
+#index-container {
+	position: static;
+    width: 1000px;
+    height: 800px;
+    background-color: black; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#index-header {
+	position: static;
+    width: 900px ;
+    height: 100px ; 
+    background-color: black ; 
+
+    font-family: AlienLeague;
+    color: darkred; 
+    text-align: center;  
+    font-size: 75px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 50px;
+    text-emphasis: bold;
+}
+
+.navigation {
+	position: static;
+            
+    color: darkred; 
+    font-family: NulShock;
+    text-align: center; 
+    font-size: 25px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: inherit; 
+    
+    background-color: black;
+}
+
+.nav-links {
+	font-size: 25px;
+	position: static; 
+
+	text-align: left; 
+	text-decoration: none; 
+	font-family: NulShock; 
+	color: darkred; 
+	padding: 5px;
+}
+
+nav a:link {
+	color: darkred;
+}
+
+nav a:visited {
+	color: darkred; 
+}
+
+nav a:hover {
+	color: darkorange;
+	background-color: black; ;
+	border-radius: 5px;
+	font-size: 30px; 
+}
+
+nav a:active {
+	color: black;
+	background-color: darkgoldenrod; ; 
+	font-style: normal; 
+}
+
+#photo {
+    position: static;
+    width: 450px;
+    height: 730px;
+    background-color: black; 
+    float: left;
+
+    overflow: auto;
+    margin-top: 70px; 
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+}
+
+#index-article {
+    position: static;
+    width: 450px;
+    height: 800px;
+    float: right;  
+    background-color: black;
+     
+    overflow: auto; 
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+#index-title {
+    font-family: ASpace; 
+    font-size: 25px;
+    text-align: center; 
+    float: right; 
+
+
+    margin-right: 60px; 
+    margin-top: 80px; 
+    color: #B02D00;
+}
+
+.index-p {
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: center; 
+    float: right;
+
+    margin-right: 25px;
+    margin-top: 60px; 
+    color: darkred;
+}
+
+#index-image {
+    display: block;
+    padding-top: 25px;
+    margin: left;
+}
+
+#red-planet-body {
+    background-color: black;
+}
+
+#red-planet-container {
+    position: static;
+    width: 1000px;
+    height: 1000px;
+    background-color: black; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#red-planet-header {
+    position: static;
+    width: 900px ;
+    height: 100px ; 
+    background-color: black ; 
+
+    font-family: AlienLeague;
+    color: #B02D00; 
+    text-align: center;  
+    font-size: 75px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 50px;
+    text-emphasis: bold
+}
+
+#red-planet-photo-container {
+    position: static;
+    width: 450px;
+    height: 950px;
+    float: right;
+
+    overflow: auto;
+    padding-right: 25px;
+    margin-top: 150px;
+}
+
+#red-planet-image {
+    display: block;
+    padding-top: 50px;
+    margin: right;
+}
+
+#red-planet-facts {
+    position: static;
+    width: 450px;
+    height: 950px;
+    background-color: black;
+
+    overflow: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+}
+
+#red-planet-title {
+    font-family: ASpace; 
+    font-size: 30px;
+    text-align: center;
+    float: left; 
+
+    margin-right: 60px;  
+    color: #C83603;
+}
+
+.red-planet-list {
+    font-family: Arial;
+    font-size: 15px;
+    float: left; 
+    color: #C83603;
+    text-align: center; 
+    padding: 50px; 
+    margin-left: 25px;
+}
+
+#life-body {
+
+    background-image:url(../images/marssurface2.jpg);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    overflow: auto;
+}
+
+#life-container {
+    position: static;
+    width: 1000px;
+    height: 1500px;
+    background-color: black; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#life-header {
+    position: static;
+    width: 900px ;
+    height: 100px ; 
+    background-color: black ; 
+
+    font-family: AlienLeague;
+    color: #B02D00; 
+    text-align: center;  
+    font-size: 75px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 50px;
+    text-emphasis: bold;
+}
+
+.life-mars-image {
+    display: block; 
+    margin: auto; 
+    padding-top: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.life-mars-p {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: center; 
+    float: right;
+
+    margin-right: 30px;
+    margin-left: 30px; 
+    margin-top: 60px; 
+    margin-bottom: 5px; 
+    color: darkred;
+}
+
+#work-background {
+    background-image:url(../images/marsrocks.jpg);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    overflow: auto;
+}
+
+#work-container {
+    position: static;
+    width: 1000px;
+    height: 1000px;
+    background-color: black; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#work-header {
+    position: static;
+    width: 900px ;
+    height: 100px ; 
+    background-color: black ; 
+
+    font-family: AlienLeague;
+    color: darkred; 
+    text-align: center;  
+    font-size: 75px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 50px;
+    text-emphasis: bold;
+}
+
+#work-photo {
+    position: static;
+    width: 450px;
+    height: 750px;
+    background-color: black; 
+    float: left;
+
+    overflow: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+}
+
+.working-photos {
+    display: block;
+    padding-top: 25px;
+    margin: left;
+}
+
+#work-facts {
+    position: static;
+    width: 450px;
+    height: 750px;
+    background-color: black;
+
+    overflow: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: right; 
+}
+
+#work-title {
+    font-family: ASpace; 
+    font-size: 30px;
+    text-align: center;  
+    color: #C83603;
+}
+
+.work-p {
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center; 
+    float: center;
+
+    margin-right: 15px;
+    margin-left: 15px; 
+    margin-top: 50px; 
+    color: darkred;
+}
+
+.work-list {
+    font-family: sans-serif;
+    font-size: 18px;
+    float: center; 
+    color: darkred;
+    text-align: center; 
+    padding: 10px; 
+    margin-right: 25px;
+}
+
+#food-background {
+    background-image:url(../images/marscrater.jpg);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    overflow: auto;
+}
+
+#food-container {
+    position: static;
+    width: 1000px;
+    height: 800px;
+    background-color: black; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#food-header {
+    position: static;
+    width: 900px ;
+    height: 100px ; 
+    background-color: black ; 
+
+    font-family: AlienLeague;
+    color: #B02D00; 
+    text-align: center;  
+    font-size: 75px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 50px;
+    text-emphasis: bold;
+}
+
+#food-photo {
+    position: static;
+    width: 450px;
+    height: 750px;
+    background-color: black;    
+    float: left;
+
+    overflow: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left; 
+}
+
+.food-photos {
+    display: block;
+    padding-top: 25px;
+    margin: left;
+}
+
+#food-facts {
+    position: static;
+    width: 450px;
+    height: 750px;
+    background-color: black;
+
+    overflow: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: right; 
+}
+
+.food-titles {
+    font-family: ASpace; 
+    font-size: 30px;
+    text-align: center;  
+    color: #C83603;
+}
+
+.food-p {
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center; 
+    float: center;
+
+    margin-right: 15px;
+    margin-left: 15px; 
+    margin-top: 50px; 
+    color: darkred; 
+}
+
+.food-list {
+    font-family: sans-serif;
+    font-size: 18px;
+    float: center; 
+    color: darkred;
+    text-align: center; 
+    padding: 10px; 
+    margin-right: 25px;
+}
+
+#living-background {
+    background-image:url(../images/marsliving.jpg);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    overflow: auto;
+}
+
+#living-container {
+    position: static;
+    width: 1000px;
+    height: 800px;
+    background-color: black; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#living-header {
+    position: static;
+    width: 900px ;
+    height: 100px ; 
+    background-color: black ; 
+
+    font-family: AlienLeague;
+    color: #B02D00; 
+    text-align: center;  
+    font-size: 75px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 50px;
+    text-emphasis: bold;
+}
+
+#living-photo {
+    position: static;
+    width: 450px;
+    height: 900px;
+    background-color: black; 
+    float: left;
+
+    overflow: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+}
+
+.living-photos {
+    display: block;
+    padding-top: 25px;
+    margin: left;
+}
+
+#living-facts {
+    position: static;
+    width: 450px;
+    height: 750px;
+    background-color: black;
+
+    overflow: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: right;
+}
+
+.living-title {
+    font-family: ASpace; 
+    font-size: 30px;
+    text-align: center;  
+    color: #C83603;
+}
+
+.living-p {
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center; 
+    float: center;
+
+    margin-right: 15px;
+    margin-left: 15px; 
+    margin-top: 50px; 
+    color: darkred; 
+}
+
+.living-list {
+    font-family: sans-serif;
+    font-size: 18px;
+    float: center; 
+    color: darkred;
+    text-align: center; 
+    padding: 10px; 
+    margin-right: 25px;
+}
+
+#apply-background {
+    background-image:url(../images/marsplanet.jpg);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    overflow: auto;
+}
+
+#apply-container {
+    position: static;
+    width: 1000px;
+    height: 1500px;
+    background-color: black; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#apply-header {
+    position: static;
+    width: 900px ;
+    height: 50px ; 
+    background-color: black ; 
+
+    font-family: AlienLeague;
+    color: #B02D00; 
+    text-align: center;  
+    font-size: 75px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 50px;
+    text-emphasis: bold;
+}
+
+#apply-title {
+    font-family: ASpace; 
+    font-size: 25px;
+    text-align: center; 
+    float: center; 
+    margin-right: 25px; 
+    margin-left: 40px;
+    margin-top: 50px; 
+    color: #B02D00;
+}
+
+#apply-table {
+    font-family: Aspace;
+    font-size: 15px;
+    color: darkred; 
+}
+
+.apply-text {
+    text-align: left; 
+    float: left;
+}
+
+.apply-input {
+    background-color: #B02D00; 
+    color: black;
+    font-size: 15px;
+}
+
+#sources-background {
+    background-image:url(../images/marsplanet.jpg);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    overflow: auto;
+}
+
+#sources-container {
+    position: static;
+    width: 1000px;
+    height: 550px;
+    background-color: black; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sources-header {
+    position: static;
+    width: 900px ;
+    height: 100px ; 
+    background-color: black ; 
+
+    font-family: AlienLeague;
+    color: #B02D00; 
+    text-align: center;  
+    font-size: 75px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 50px;
+    text-emphasis: bold;
+}
+
+.sources-p {
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center; 
+    float: center;
+
+    margin-right: 15px;
+    margin-left: 15px; 
+    margin-top: 50px; 
+    color: darkred; 
+}
+
+.sources-links {
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center; 
+    float: center;
+
+    margin-right: 15px;
+    margin-left: 15px; 
+    margin-top: 50px; 
+    color: darkred;
+}
