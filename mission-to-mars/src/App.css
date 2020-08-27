@@ -1,13 +1,13 @@
 @font-face {font-family: AlienLeauge; 
-    src: url(/assets/fonts/alienleague.ttf); 
+    src: url(./assets/fonts/alienleague.ttf); 
 }
 
 @font-face {font-family: NulShock;
-    src: url(/assets/fonts/nulshock.ttf); 
+    src: url(./assets/fonts/nulshock.ttf); 
 }
 
 @font-face {font-family: ASpace; 
-    src: url(/assets/fonts/aspace.ttf); 
+    src: url(./assets/fonts/aspace.ttf); 
 }
 
 #indexBody {
@@ -71,9 +71,8 @@
 .navLinks {
   font-size: 25px;
   position: static; 
-
-  text-align: left; 
   text-decoration: none; 
+  text-align: left; 
   font-family: NulShock; 
   color: darkred; 
   padding: 5px;
