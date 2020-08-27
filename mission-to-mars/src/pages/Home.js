@@ -11,13 +11,13 @@ class Home extends React.Component{
 				            
 				            <nav className="navigation"> 
 				                
-				                <a className="nav-links" href="theredplanet.html"> The Red Planet </a>
+				                <a className="navLinks" href="theredplanet.html"> The Red Planet </a>
 				            
-				                <a className="nav-links" href="lifeonmars.html"> Life on Mars </a>
+				                <a className="navLinks" href="lifeonmars.html"> Life on Mars </a>
 				            
-				                <a className="nav-links" href="apply.html"> Apply </a> 
+				                <a className="navLinks" href="apply.html"> Apply </a> 
 				                
-				                <a className="nav-links" href="sources.html"> Sources </a>
+				                <a className="navLinks" href="sources.html"> Sources </a>
 				            
 				            </nav>
 				            
