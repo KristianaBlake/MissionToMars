@@ -10,12 +10,12 @@
     src: url(./assets/fonts/aspace.ttf); 
 }
 
-#indexBody {
+#index-body {
   height: 100%;
   margin: 0;
 }
 
-#indexBackground {
+#index-background {
   background-image:url(./assets/images/mars.jpg);
 
   height: 100%;
@@ -27,7 +27,7 @@
   overflow: auto;
 }
 
-#indexContainer {
+#index-container {
   position: static;
     width: 1000px;
     height: 800px;
@@ -36,7 +36,7 @@
     margin-right: auto;
 }
 
-#indexHeader {
+#index-header {
   position: static;
     width: 900px ;
     height: 100px ; 
@@ -68,7 +68,7 @@
     background-color: black;
 }
 
-.navLinks {
+.nav-links {
   font-size: 25px;
   position: static; 
   text-decoration: none; 
@@ -113,7 +113,7 @@ nav a:active {
     text-align: left;
 }
 
-#indexArticle {
+#index-article {
     position: static;
     width: 450px;
     height: 800px;
@@ -126,7 +126,7 @@ nav a:active {
     text-align: center;
 }
 
-#indexTitle {
+#index-title {
     font-family: ASpace; 
     font-size: 25px;
     text-align: center; 
@@ -138,7 +138,7 @@ nav a:active {
     color: #B02D00;
 }
 
-.indexP {
+.index-p {
     font-family: Helvetica;
     font-size: 20px;
     text-align: center; 
@@ -149,7 +149,7 @@ nav a:active {
     color: darkred;
 }
 
-#indexImage {
+#index-image {
     display: block;
     padding-top: 25px;
     margin: left;
