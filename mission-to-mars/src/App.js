@@ -7,7 +7,9 @@ import Home from './pages/Home';
 function App() {
   return (
   	<Router>
-  		<Home/> 
+  		<Switch>
+  			<Route path="/" exact component={Home} />
+  		</Switch> 
   	</Router> 
   );
 }
