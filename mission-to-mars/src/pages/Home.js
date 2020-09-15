@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
+import TheRedPlanet from './linked-pages/TheRedPlanet.js';
 
 class Home extends React.Component{
 	render(){
@@ -11,11 +12,10 @@ class Home extends React.Component{
 				            <header id ="index-header"> <strong> Mission to Mars </strong> </header>
 				            
 				            <nav className="navigation"> 
-				                <a className="nav-links" href="theredplanet.html">
-				                	<Link to="/theredplanet">
-				                 		The Red Planet 
-				                 	</Link> 
-				                 </a>
+			                	<Link className="nav-links" to="/theredplanet">
+			                 		The Red Planet 
+			                 	</Link> 
+				             
 				           
 				            
 				                <a className="nav-links" href="lifeonmars.html"> Life on Mars </a>
