@@ -155,7 +155,7 @@ nav a:active {
     margin: left;
 }
 
-/*red planet starts below */
+/* Red Planet starts below */
 
 #red-planet-body {
     background-color: black;
@@ -243,5 +243,69 @@ nav a:active {
     margin-left: 25px;
 }
 
-/*red planet ends*/
+/* Red Planet ends */
+
+/* Life on Mars starts */
+
+#life-body {
+
+    background-image:url(./assets/images/marssurface2.jpg);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    overflow: auto;
+}
+
+#life-container {
+    position: static;
+    width: 1000px;
+    height: 1500px;
+    background-color: black; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#life-header {
+    position: static;
+    width: 900px ;
+    height: 100px ; 
+    background-color: black ; 
+
+    font-family: AlienLeague;
+    color: #B02D00; 
+    text-align: center;  
+    font-size: 75px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 50px;
+    text-emphasis: bold;
+}
+
+.life-mars-image {
+    display: block; 
+    margin: auto; 
+    padding-top: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.life-mars-p {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: center; 
+    float: right;
+
+    margin-right: 30px;
+    margin-left: 30px; 
+    margin-top: 60px; 
+    margin-bottom: 5px; 
+    color: darkred;
+}
+
+/* Life on Mars ends */
 

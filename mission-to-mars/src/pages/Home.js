@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
+
 import TheRedPlanet from './linked-pages/TheRedPlanet.js';
+import LifeOnMars from './linked-pages/LifeOnMars.js';
 
 class Home extends React.Component{
 	render(){
@@ -16,7 +18,10 @@ class Home extends React.Component{
 			                 		The Red Planet 
 			                 	</Link> 
 				             
-				                <a className="nav-links" href="lifeonmars.html"> Life on Mars </a>
+				             	<Link className="nav-links" to="/lifeonmars">
+			                 		Life on Mars  
+			                 	</Link> 
+				                
 				            
 				                <a className="nav-links" href="apply.html"> Apply </a> 
 				                

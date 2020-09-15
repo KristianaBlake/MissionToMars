@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 import TheRedPlanet from './pages/linked-pages/TheRedPlanet.js';
+import LifeOnMars from "./pages/linked-pages/LifeOnMars.js";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
   		<Switch>
   			<Route exact path="/" component={Home} />
   			<Route path="/theredplanet" component={TheRedPlanet} /> 
+  			<Route path="/lifeonmars" component={LifeOnMars} /> 
   		</Switch> 
   	</Router> 
   );
