@@ -309,3 +309,104 @@ nav a:active {
 
 /* Life on Mars ends */
 
+/* Work on Mars starts */
+
+#work-background {
+    background-image:url(./assets/images/marsrocks.jpg);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    overflow: auto;
+}
+
+#work-container {
+    position: static;
+    width: 1000px;
+    height: 1000px;
+    background-color: black; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#work-header {
+    position: static;
+    width: 900px ;
+    height: 100px ; 
+    background-color: black ; 
+
+    font-family: AlienLeague;
+    color: darkred; 
+    text-align: center;  
+    font-size: 75px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 50px;
+    text-emphasis: bold;
+}
+
+#work-photo {
+    position: static;
+    width: 450px;
+    height: 750px;
+    background-color: black; 
+    float: left;
+
+    overflow: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+}
+
+.working-photos {
+    display: block;
+    padding-top: 25px;
+    margin: left;
+}
+
+#work-facts {
+    position: static;
+    width: 450px;
+    height: 750px;
+    background-color: black;
+
+    overflow: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: right; 
+}
+
+#work-title {
+    font-family: ASpace; 
+    font-size: 30px;
+    text-align: center;  
+    color: #C83603;
+}
+
+.work-p {
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center; 
+    float: center;
+
+    margin-right: 15px;
+    margin-left: 15px; 
+    margin-top: 50px; 
+    color: darkred;
+}
+
+.work-list {
+    font-family: sans-serif;
+    font-size: 18px;
+    float: center; 
+    color: darkred;
+    text-align: center; 
+    padding: 10px; 
+    margin-right: 25px;
+}
+
+/* Work on Mars ends */
+
