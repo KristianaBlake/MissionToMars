@@ -159,6 +159,14 @@ nav a:active {
 
 #red-planet-body {
     background-color: black;
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    overflow: auto;
 }
 
 #red-planet-container {
