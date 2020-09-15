@@ -11,7 +11,7 @@ class TheRedPlanet extends React.Component{
 			            </header>
 			                
 			            <div id="red-planet-photo-container">
-			                <img id="red-planet-image" src="images/welcomehomemars.jpg" alt="WelcomeHome"/> 
+			                <img id="red-planet-image" src="assets/images/welcomehomemars.jpg" alt="WelcomeHome"/> 
 			            </div>
 			          
 			            <div id="red-planet-facts">     

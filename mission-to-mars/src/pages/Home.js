@@ -16,8 +16,6 @@ class Home extends React.Component{
 			                 		The Red Planet 
 			                 	</Link> 
 				             
-				           
-				            
 				                <a className="nav-links" href="lifeonmars.html"> Life on Mars </a>
 				            
 				                <a className="nav-links" href="apply.html"> Apply </a> 
