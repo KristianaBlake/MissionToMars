@@ -13,7 +13,7 @@ class LifeOnMars extends React.Component{
 					<div id="life-container"> 
 
 					<header id="life-header"> 
-					<strong> Life on Mars </strong> 
+						<strong> Life on Mars </strong> 
 					</header>
 
 					<nav className="navigation">
