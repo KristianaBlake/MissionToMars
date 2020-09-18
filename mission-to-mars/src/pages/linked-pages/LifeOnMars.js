@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
-import WorkOnMars from './supp-pages/WorkOnMars.js'
+import WorkOnMars from './supp-pages/WorkOnMars.js';
+import FoodonMars from './supp-pages/FoodOnMars.js'
 
 class LifeOnMars extends React.Component{
 	render(){
@@ -20,7 +21,8 @@ class LifeOnMars extends React.Component{
 					    <Link className="nav-links" to="/workonmars"> Work 
 					    </Link>
 					    
-					    <a className="nav-links" href="foodonmars.html"> Food </a>
+					    <Link className="nav-links" to="/foodonmars"> Food 
+					    </Link>
 					    
 					    <a className="nav-links" href="livingonmars.html"> Living Quarters </a>
 					    
