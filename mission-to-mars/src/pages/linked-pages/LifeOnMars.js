@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
 import WorkOnMars from './supp-pages/WorkOnMars.js';
-import FoodonMars from './supp-pages/FoodOnMars.js'
+import FoodonMars from './supp-pages/FoodOnMars.js';
+import LivingonMars from './supp-pages/LivingOnMars.js';
 
 class LifeOnMars extends React.Component{
 	render(){
@@ -24,7 +25,7 @@ class LifeOnMars extends React.Component{
 					    <Link className="nav-links" to="/foodonmars"> Food 
 					    </Link>
 					    
-					    <a className="nav-links" href="livingonmars.html"> Living Quarters </a>
+					    <Link className="nav-links" to="/livingonmars"> Living Quarters </Link>
 					    
 					</nav>
 

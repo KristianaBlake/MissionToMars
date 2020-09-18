@@ -510,3 +510,104 @@ nav a:active {
 }
 
 /* Food on Mars ends */ 
+
+/* Living on Mars starts */ 
+
+#living-background {
+    background-image:url(./assets/images/marsliving.jpg);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    overflow: auto;
+}
+
+#living-container {
+    position: static;
+    width: 1000px;
+    height: 800px;
+    background-color: black; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#living-header {
+    position: static;
+    width: 900px ;
+    height: 100px ; 
+    background-color: black ; 
+
+    font-family: AlienLeague;
+    color: #B02D00; 
+    text-align: center;  
+    font-size: 75px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 50px;
+    text-emphasis: bold;
+}
+
+#living-photo {
+    position: static;
+    width: 450px;
+    height: 900px;
+    background-color: black; 
+    float: left;
+
+    overflow: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+}
+
+.living-photos {
+    display: block;
+    padding-top: 25px;
+    margin: left;
+}
+
+#living-facts {
+    position: static;
+    width: 450px;
+    height: 750px;
+    background-color: black;
+
+    overflow: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: right;
+}
+
+.living-title {
+    font-family: ASpace; 
+    font-size: 30px;
+    text-align: center;  
+    color: #C83603;
+}
+
+.living-p {
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center; 
+    float: center;
+
+    margin-right: 15px;
+    margin-left: 15px; 
+    margin-top: 50px; 
+    color: darkred; 
+}
+
+.living-list {
+    font-family: sans-serif;
+    font-size: 18px;
+    float: center; 
+    color: darkred;
+    text-align: center; 
+    padding: 10px; 
+    margin-right: 25px;
+}
+
+/* Living on Mars ends */ 

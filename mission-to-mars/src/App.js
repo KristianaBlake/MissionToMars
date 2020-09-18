@@ -8,7 +8,7 @@ import LifeOnMars from "./pages/linked-pages/LifeOnMars.js";
 
 import WorkOnMars from "./pages/linked-pages/supp-pages/WorkOnMars.js";
 import FoodOnMars from "./pages/linked-pages/supp-pages/FoodOnMars.js";
-
+import LivingOnMars from "./pages/linked-pages/supp-pages/LivingOnMars.js";
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
   			<Route path="/lifeonmars" component={LifeOnMars} /> 
   			<Route path="/workonmars" component={WorkOnMars} /> 
         <Route path="/foodonmars" component={FoodOnMars} />
+        <Route path="/livingonmars" component={LivingOnMars} />
   		</Switch> 
   	</Router> 
   );
