@@ -611,3 +611,71 @@ nav a:active {
 }
 
 /* Living on Mars ends */ 
+
+/* Apply to Mars starts */
+#apply-background {
+    background-image:url(./assets/images/marsplanet.jpg);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    overflow: auto;
+}
+
+#apply-container {
+    position: static;
+    width: 1000px;
+    height: 1500px;
+    background-color: black; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#apply-header {
+    position: static;
+    width: 900px ;
+    height: 50px ; 
+    background-color: black ; 
+
+    font-family: AlienLeague;
+    color: #B02D00; 
+    text-align: center;  
+    font-size: 75px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 50px;
+    text-emphasis: bold;
+}
+
+#apply-title {
+    font-family: ASpace; 
+    font-size: 25px;
+    text-align: center; 
+    float: center; 
+    margin-right: 25px; 
+    margin-left: 40px;
+    margin-top: 50px; 
+    color: #B02D00;
+}
+
+#apply-table {
+    font-family: Aspace;
+    font-size: 15px;
+    color: darkred; 
+}
+
+.apply-text {
+    text-align: left; 
+    float: left;
+}
+
+.apply-input {
+    background-color: #B02D00; 
+    color: black;
+    font-size: 15px;
+}
+
+/* Apply to Mars ends */
