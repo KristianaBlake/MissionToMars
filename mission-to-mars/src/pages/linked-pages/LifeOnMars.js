@@ -17,6 +17,9 @@ class LifeOnMars extends React.Component{
 						<strong> Life on Mars </strong> 
 					</header>
 
+					<br/>
+					<br/>
+
 					<nav className="navigation">
 
 					    <Link className="nav-links" to="/workonmars"> Work 
@@ -28,6 +31,8 @@ class LifeOnMars extends React.Component{
 					    <Link className="nav-links" to="/livingonmars"> Living Quarters </Link>
 					    
 					</nav>
+
+					<br/>
 
 					<img className="life-mars-image" src="assets/images/lifeonmars.jpg" alt="Crew"/> 
 

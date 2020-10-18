@@ -258,13 +258,13 @@ nav a:active {
 
     background-image:url(./assets/images/marssurface2.jpg);
 
-    height: 100%;
+    /*height: 100%;
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: color;
-    overflow: auto;
+    overflow: auto;*/
 }
 
 #life-container {
@@ -281,6 +281,11 @@ nav a:active {
     width: 900px ;
     height: 100px ; 
     background-color: black ; 
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: inherit; 
 
     font-family: AlienLeague;
     color: #B02D00; 
@@ -321,13 +326,13 @@ nav a:active {
 #work-background {
     background-image:url(./assets/images/marsrocks.jpg);
 
-    height: 100%;
+   /* height: 100%;
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: color;
-    overflow: auto;
+    overflow: auto;*/
 }
 
 #work-container {
@@ -422,13 +427,13 @@ nav a:active {
 #food-background {
     background-image:url(./assets/images/marscrater.jpg);
 
-    height: 100%;
+    /*height: 100%;
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: color;
-    overflow: auto;
+    overflow: auto;*/
 }
 
 #food-container {
@@ -523,13 +528,13 @@ nav a:active {
 #living-background {
     background-image:url(./assets/images/marsliving.jpg);
 
-    height: 100%;
+   /* height: 100%;
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: color;
-    overflow: auto;
+    overflow: auto;*/
 }
 
 #living-container {
@@ -623,13 +628,13 @@ nav a:active {
 #apply-background {
     background-image:url(./assets/images/marsplanet.jpg);
 
-    height: 100%;
+  /*  height: 100%;
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: color;
-    overflow: auto;
+    overflow: auto;*/
 }
 
 #apply-container {
