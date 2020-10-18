@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import TheRedPlanet from './linked-pages/TheRedPlanet.js';
 import LifeOnMars from './linked-pages/LifeOnMars.js';
+import Apply from './linked-pages/Apply.js';
 
 class Home extends React.Component{
 	render(){
@@ -11,8 +12,16 @@ class Home extends React.Component{
 				<body id ="index-body">
 					<div id="index-background">
 						<div id="index-container">
-				            <header id ="index-header"> <strong> Mission to Mars </strong> </header>
-				            
+							
+							<br/>
+							<br/>
+
+				            <header id ="index-header"> <strong> Mission to Mars </strong> 
+				            </header>
+
+				            <br/>
+				            <br/> 
+
 				            <nav className="navigation"> 
 			                	<Link className="nav-links" to="/theredplanet">
 			                 		The Red Planet 
@@ -23,7 +32,7 @@ class Home extends React.Component{
 			                 	</Link> 
 				                
 				            
-				                <a className="nav-links" href="apply.html"> Apply </a> 
+				                <a className="nav-links" to="/apply"> Apply </a> 
 				                
 				                <a className="nav-links" href="sources.html"> Sources </a>
 				            

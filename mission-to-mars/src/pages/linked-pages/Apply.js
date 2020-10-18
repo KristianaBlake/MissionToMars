@@ -12,7 +12,10 @@ class Apply extends React.Component{
 						<h1 id="apply-title"> Sign up for your one-way-trip to Mars! </h1>
 
 						<Form>
-						
+							<Form.Field>
+								<label> First Name: </label> 
+								<input placeholder='First Name'> </input> 
+							</Form.Field> 
 						</Form> 
 					</div>
 				</body>

@@ -5,6 +5,7 @@ import './App.css';
 import Home from './pages/Home';
 import TheRedPlanet from './pages/linked-pages/TheRedPlanet.js';
 import LifeOnMars from "./pages/linked-pages/LifeOnMars.js";
+import Apply from './pages/linked-pages/Apply.js';
 
 import WorkOnMars from "./pages/linked-pages/supp-pages/WorkOnMars.js";
 import FoodOnMars from "./pages/linked-pages/supp-pages/FoodOnMars.js";
@@ -20,6 +21,7 @@ function App() {
   			<Route path="/workonmars" component={WorkOnMars} /> 
         <Route path="/foodonmars" component={FoodOnMars} />
         <Route path="/livingonmars" component={LivingOnMars} />
+        <Route path="/apply" component={Apply} />
   		</Switch> 
   	</Router> 
   );
