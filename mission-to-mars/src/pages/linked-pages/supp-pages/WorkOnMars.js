@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 class WorkOnMars extends React.Component{
 	render(){

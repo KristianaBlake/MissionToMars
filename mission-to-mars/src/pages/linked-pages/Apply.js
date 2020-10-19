@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import { Button, Form } from 'semantic-ui-react';
 
 class Apply extends React.Component{
@@ -11,6 +11,10 @@ class Apply extends React.Component{
 
 						<h1 id="apply-title"> Sign up for your one-way-trip to Mars! </h1>
 
+						<form id="apply-form">
+							<label id="apply-label"> First Name: 
+							</label>
+						</form>  
 						
 					</div>
 				</body>

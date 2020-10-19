@@ -694,6 +694,14 @@ nav a:active {
     color: #B02D00;
 }
 
+#apply-form{
+    color: darkred;
+}
+
+#apply-label{
+    color: darkred;
+}
+
 #apply-table {
     font-family: Aspace;
     font-size: 15px;
