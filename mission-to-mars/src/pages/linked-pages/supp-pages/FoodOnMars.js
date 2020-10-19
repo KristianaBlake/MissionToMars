@@ -6,7 +6,12 @@ class FoodOnMars extends React.Component{
 			<div>
 				<body id="food-background"> 
 					<div id="food-container"> 
+
 						<header id="food-header"> Food on Mars </header>
+
+						<br/>
+						<br/>
+						<br/>
 
 						<div id="food-photo">
 							<img className="food-photos" src="assets/images/communaleating.jpg" alt="CrewEatingTogether"/>

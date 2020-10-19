@@ -8,6 +8,10 @@ class WorkOnMars extends React.Component{
 					<div id="work-container">     
 					<header id="work-header"> Working on Mars </header>
 
+					<br/>
+					<br/>
+					<br/>
+
 					<div id="work-photo">
 
 					<img className="working-photos" src="assets/images/astronautworkingoutside.jpg" alt="AstronautWorking"/>

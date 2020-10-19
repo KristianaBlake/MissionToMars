@@ -350,6 +350,11 @@ nav a:active {
     height: 100px ; 
     background-color: black ; 
 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: inherit; 
+
     font-family: AlienLeague;
     color: darkred; 
     text-align: center;  
@@ -368,7 +373,7 @@ nav a:active {
     float: left;
 
     overflow: auto;
-    padding-left: 25px;
+    padding-left: 35px;
     padding-right: 25px;
     text-align: left;
 }
@@ -376,7 +381,8 @@ nav a:active {
 .working-photos {
     display: block;
     padding-top: 25px;
-    margin: left;
+    padding-left: 25px;
+    /*margin: left;*/
 }
 
 #work-facts {
@@ -451,6 +457,11 @@ nav a:active {
     height: 100px ; 
     background-color: black ; 
 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: inherit;
+
     font-family: AlienLeague;
     color: #B02D00; 
     text-align: center;  
@@ -469,7 +480,7 @@ nav a:active {
     float: left;
 
     overflow: auto;
-    padding-left: 25px;
+    padding-left: 90px;
     padding-right: 25px;
     text-align: left; 
 }
@@ -551,6 +562,11 @@ nav a:active {
     width: 900px ;
     height: 100px ; 
     background-color: black ; 
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: inherit;
 
     font-family: AlienLeague;
     color: #B02D00; 
@@ -651,6 +667,11 @@ nav a:active {
     width: 900px ;
     height: 50px ; 
     background-color: black ; 
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: inherit;
 
     font-family: AlienLeague;
     color: #B02D00; 
