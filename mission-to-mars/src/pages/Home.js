@@ -32,7 +32,7 @@ class Home extends React.Component{
 			                 	</Link> 
 				                
 				            
-				                <a className="nav-links" to="/apply"> Apply </a> 
+				                <Link className="nav-links" to="/apply"> Apply </Link> 
 				                
 				                <a className="nav-links" href="sources.html"> Sources </a>
 				            
