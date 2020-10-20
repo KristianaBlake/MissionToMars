@@ -11,17 +11,31 @@ class Apply extends React.Component{
 
 						<h1 id="apply-title"> Sign up for your one-way-trip to Mars! </h1>
 
-						<form id="apply-form">
-							<label id="apply-label"> First Name: </label>
-							<input placeholder="First Name"/>
+						<br/>
+						<br/>
 
-							<label id="apply-label"> Last Name: </label>
-							<input placeholder="First Name"/>
+						<div id="form-container">
+							<form id="apply-form">
 
-							<label id="apply-label"> Email Address: </label>
-							<input placeholder="First Name"/>
-						</form>  
-						
+								<br/>
+
+								<label class="apply-label"> First Name: </label>
+								<input class="input-label" placeholder="First Name"/>
+
+								<br/>
+
+								<label class="apply-label"> Last Name: </label>
+								<input class="input-label" placeholder="Last Name"/>
+
+								<br/>
+
+								<label class="apply-label"> Email Address: </label>
+								<input class="input-label" placeholder="Email Addresss"/>
+
+								<br/>
+
+							</form>  
+						</div> 
 					</div>
 				</body>
 			</div> 

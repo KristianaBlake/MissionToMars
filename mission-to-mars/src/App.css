@@ -644,9 +644,9 @@ nav a:active {
 #apply-background {
     background-image:url(./assets/images/marsplanet.jpg);
 
-  /*  height: 100%;
-
     background-position: center;
+
+ /*   background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: color;
@@ -655,8 +655,8 @@ nav a:active {
 
 #apply-container {
     position: static;
-    width: 1000px;
-    height: 1500px;
+    width: 800px;
+    height: 800px;
     background-color: black; 
     margin-left: auto;
     margin-right: auto;
@@ -664,7 +664,7 @@ nav a:active {
 
 #apply-header {
     position: static;
-    width: 900px ;
+    width: 800px ;
     height: 50px ; 
     background-color: black ; 
 
@@ -694,26 +694,31 @@ nav a:active {
     color: #B02D00;
 }
 
-#apply-form{
-    color: darkred;
+#form-container {
+    position: static;
+    width: 800px;
+    height: 800px;
+    background-color: black; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#apply-label{
+#apply-form {
     color: darkred;
-}
-
-#apply-table {
     font-family: Aspace;
     font-size: 15px;
-    color: darkred; 
-}
-
-.apply-text {
     text-align: left; 
-    float: left;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding: 20px;
+    padding-left: 115px;
 }
 
-.apply-input {
+.apply-label {
+    text-align: right;
+}
+
+.input-label {
     background-color: #B02D00; 
     color: black;
     font-size: 15px;
