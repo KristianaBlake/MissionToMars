@@ -587,6 +587,9 @@ nav a:active {
     margin-right: 25px;
 }
 
+
+/* Apply to Mars starts */
+
 #apply-background {
     background-image:url(../images/marsplanet.jpg);
 
@@ -602,7 +605,7 @@ nav a:active {
 #apply-container {
     position: static;
     width: 1000px;
-    height: 1500px;
+    height: 1100px;
     background-color: black; 
     margin-left: auto;
     margin-right: auto;
@@ -635,22 +638,47 @@ nav a:active {
     color: #B02D00;
 }
 
-#apply-table {
+.form-container {
+   /* position: static;*/
+    width: 1000px;
+    height: 800px;
+    background-color: black; 
+    float: center;
+  /*  margin-left: auto;
+    margin-right: auto;*/
+/*    text-align: right;
+    float: right;*/
+
+}
+
+#apply-form {
     font-family: Aspace;
     font-size: 15px;
     color: darkred; 
+    text-align: right;
+    float: center;
+    margin-left: 60px;
 }
 
-.apply-text {
-    text-align: left; 
-    float: left;
-}
+/*tr {
+    text-align: right;
+}*/
 
-.apply-input {
+
+/*label {
+    text-align: right;
+}*/
+
+.input-label {
     background-color: #B02D00; 
     color: black;
     font-size: 15px;
+/*    text-align: right;*/
 }
+
+
+
+/* Apply to Mars ends */
 
 #sources-background {
     background-image:url(../images/marsplanet.jpg);

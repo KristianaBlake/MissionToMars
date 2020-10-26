@@ -694,20 +694,12 @@ nav a:active {
     color: #B02D00;
 }
 
-#form-container {
-    position: static;
-    width: 800px;
-    height: 800px;
-    background-color: black; 
-    margin-left: auto;
-    margin-right: auto;
-}
 
 #apply-form {
     font-size: 20px;
     color: #B02D00;
     font-family: Aspace;
-    text-align: left; 
+    text-align: right; 
     float: left;
     letter-spacing: 2px;
     word-spacing: 2px;
@@ -717,6 +709,11 @@ nav a:active {
 
 .apply-label {
     text-align: right;
+}
+
+tr {
+    text-align: right; 
+    float: left;
 }
 
 .input-label {
