@@ -660,6 +660,8 @@ nav a:active {
     background-color: black; 
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #apply-header {
@@ -694,34 +696,21 @@ nav a:active {
     color: #B02D00;
 }
 
-
-#apply-form {
-    font-size: 20px;
-    color: #B02D00;
+#apply-table {
     font-family: Aspace;
-    text-align: right; 
-    float: left;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    padding: 20px;
-    padding-left: 115px;
-}
-
-.apply-label {
-    text-align: right;
-}
-
-tr {
-    text-align: right; 
-    float: left;
-}
-
-.input-label {
     font-size: 15px;
-    background-color: #ff6600; 
-    border-radius: 12px;
-    padding: 5px;
+    color: #B02D00; 
+}
+
+.apply-text {
+    text-align: left; 
+    float: left;
+}
+
+.apply-input {
+    background-color: #B02D00; 
     color: black;
+    font-size: 15px;
 }
 
 /* Apply to Mars ends */
