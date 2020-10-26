@@ -150,6 +150,30 @@ class Apply extends React.Component{
 					                    </td>
 					                </tr>
 
+					                <tr>
+					                    <td align="right" valign="top"> Why Mars? </td>
+					                    <td> <textarea class="apply-text" rows="6" cols="20"> </textarea> </td>
+					                </tr>
+
+					                 <tr>
+					                    <td align="right" valign="top"> What would 
+					                        <br/> you contribute 
+					                        <br/> to Martian Society? 
+					                    </td>
+					                    <td> <textarea class="apply-text" rows="6" cols="20"> </textarea> </td>
+					                </tr>
+
+					                <br/>
+
+					                <div id="apply-buttons">
+					                	<tr>
+							                <td colspan="2" align="right">
+						                        <input class="apply-input" type="reset" value="Reset"/>
+						                        &nbsp; &nbsp; &nbsp; 
+						                        <input class="apply-input" type="submit" value="Apply!"/>
+						                    </td>
+						            	</tr>
+					                </div>
 		            			</table>
 		       				 </form>
 		       			</div>  
