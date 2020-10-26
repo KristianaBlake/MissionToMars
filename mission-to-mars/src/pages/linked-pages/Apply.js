@@ -34,8 +34,49 @@ class Apply extends React.Component{
 					                        <br/> 
 					                        <input class="apply-input" type="radio" name="size" value="medium"/> Female
 					                        <br/>
+					                         <input class="apply-input" type="radio" name="size" value="medium"/> Do not wish to Self-Identify
+					                        <br/>
 					                    </td>
 					                </tr>
+					                 <tr>
+				                    <td align="right" valign="top"> Ethnicity: </td>
+				                    <td> 
+				                        <select name="ethniticty">
+				                            
+				                            <option value="africanamerican"> 
+				                            African American
+				                            </option>
+				                            
+				                            <option value="indian">
+				                            Indian
+				                            </option>
+				                            
+				                            <option value="pascificislander">
+				                            Pacific Islander
+				                            </option>
+				                            
+				                            <option value="white/caucasian">
+				                            White/Causcasian
+				                            </option>
+				                            
+				                            <option value="nativeamerican">
+				                            Native American
+				                            </option>
+				                            
+				                            <option value="middleeastern">
+				                            Middle Eastern
+				                            </option>
+				                            
+				                            <option value="asianamerican"> 
+				                            Asian American
+				                            </option>  
+				                            
+				                            <option value="northafrican"> 
+				                            North African
+				                            </option>  
+				                        </select>
+				                    </td>
+				                </tr>
 		            			</table>
 		       				 </form>
 		       			</div>  
