@@ -12,6 +12,7 @@ class Apply extends React.Component{
 	        			</header>
 	       					<h1 id="apply-title"> Sign up for your one-way-trip to Mars! 
 	       					</h1>
+	       					<br/>
 		       				 <form>
 		            			<table id="apply-table" border="0" cellpadding="8" cellspacing="0">
 		               				<tr>
