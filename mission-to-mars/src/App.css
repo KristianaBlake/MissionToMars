@@ -704,10 +704,11 @@ nav a:active {
 }
 
 #apply-form {
-    color: darkred;
+    font-size: 20px;
+    color: #B02D00;
     font-family: Aspace;
-    font-size: 15px;
     text-align: left; 
+    float: left;
     letter-spacing: 2px;
     word-spacing: 2px;
     padding: 20px;
@@ -719,9 +720,11 @@ nav a:active {
 }
 
 .input-label {
-    background-color: #B02D00; 
-    color: black;
     font-size: 15px;
+    background-color: #ff6600; 
+    border-radius: 12px;
+    padding: 5px;
+    color: black;
 }
 
 /* Apply to Mars ends */

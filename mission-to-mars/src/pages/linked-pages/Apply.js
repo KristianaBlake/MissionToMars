@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Form } from 'semantic-ui-react';
+import Table from 'react-bootstrap/Table'
 
 class Apply extends React.Component{
 	render(){
@@ -19,18 +20,26 @@ class Apply extends React.Component{
 
 								<br/>
 
-								<label class="apply-label"> First Name: </label>
-								<input class="input-label" placeholder="First Name"/>
+								<Table>
 
-								<br/>
+									<tr>
 
-								<label class="apply-label"> Last Name: </label>
-								<input class="input-label" placeholder="Last Name"/>
+										<th><label class="apply-label"> First Name: </label></th>
+										<th><input class="input-label"/></th>
 
-								<br/>
+									</tr>
 
-								<label class="apply-label"> Email Address: </label>
-								<input class="input-label" placeholder="Email Addresss"/>
+									<br/>
+
+									<label class="apply-label"> Last Name: </label>
+									<input class="input-label"/>
+
+									<br/>
+
+									<label class="apply-label"> Email Address: </label>
+									<input class="input-label"/>
+
+								</Table> 
 
 								<br/>
 
